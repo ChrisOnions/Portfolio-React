@@ -6,9 +6,9 @@ export default function About() {
   return (
     <div class='sizeContainerOne'>
       <img src={ProfilePic} alt="Logo"></img>
-      <h2 class="headerSpace firstName">Christopher <span class="lastName">Onions</span>
-      </h2>
-      <h1>About Page</h1>
+      <h1 class="headerSpace firstName">Christopher <span class="lastName">Onions</span>
+      </h1>
+      <h2>About Page</h2 >
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
@@ -17,6 +17,6 @@ export default function About() {
         imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
         in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </p>
-    </div>
+    </div >
   );
 }

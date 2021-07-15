@@ -68,7 +68,17 @@ ul {
   height: 100%;
   list-style-type: none;
 }
-/* contacts */
+/* contact */
+
+.formElements {
+  min-height: 400px;
+}
+.formInput {
+  height: 30px;
+}
+.formInputMessage {
+}
+/*  */
 
 .backUp {
   font-weight: 900;

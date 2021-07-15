@@ -1,8 +1,13 @@
 import React from 'react';
+import ProfilePic from './ProfilePic.jfif'
+
 
 export default function About() {
   return (
-    <div>
+    <div class='sizeContainerOne'>
+      <img src={ProfilePic} alt="Logo"></img>
+      <h2 class="headerSpace firstName">Christopher <span class="lastName">Onions</span>
+      </h2>
       <h1>About Page</h1>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.

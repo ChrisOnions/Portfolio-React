@@ -2,9 +2,15 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer>
-      Feet Go here
-    </footer>
+    <div>
+      {/* <div >
+        <a class='backUp' href="#">^</a>
+      </div> */}
+
+      <footer >
+        Feet Go here
+      </footer >
+    </div>
   )
 }
 

@@ -36,10 +36,7 @@ function Contact() {
 
       </div>
 
-      <div>
-        {/* Cards here  */}
-        Cards here
-      </div>
+
     </div>
 
   )

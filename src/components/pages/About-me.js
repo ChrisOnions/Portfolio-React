@@ -5,7 +5,7 @@ import ProfilePic from './ProfilePic.jfif'
 export default function About() {
   return (
     <div class='sizeContainerOne'>
-      <img src={ProfilePic} alt="Logo"></img>
+      <img class='profilePic' src={ProfilePic} alt="Logo"></img>
       <h1 class="headerSpace firstName">Christopher <span class="lastName">Onions</span>
       </h1>
       <h2>About Page</h2 >

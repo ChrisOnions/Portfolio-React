@@ -3,7 +3,7 @@
 function NavTabs({ currentPage, handlePageChange }, HomeIcon) {
   return (
     <div class='headerContainer'>
-      <div class='sizeContainer'>
+      <div class='sizeContainer dFlex'>
         <h2 class="headerSpace firstName">C <span class="lastName">O</span>
         </h2>
         <div class='headerSpace'>

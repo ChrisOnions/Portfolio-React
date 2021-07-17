@@ -72,13 +72,16 @@ button:hover {
 /*  */
 .profilePic {
   margin-top: 20px;
-
   border-radius: 50%;
   width: 100px;
   height: auto;
 }
 .sizeContainerOne {
   margin: 0 150px;
+  height: 150%;
+}
+.headerContainer {
+  min-height: 100%;
 }
 /* Remove styling on a tags */
 

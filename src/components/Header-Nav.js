@@ -1,6 +1,7 @@
+import React from 'react'
 
+function NavTabs({ currentPage, handlePageChange }) {
 
-function NavTabs({ currentPage, handlePageChange }, HomeIcon) {
   return (
     <div class='headerContainer'>
       <div class='sizeContainer dFlex'>

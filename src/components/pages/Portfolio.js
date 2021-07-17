@@ -2,8 +2,6 @@ import React from 'react';
 import Card from './portfoliCard';
 import Projects from './assets/projects.js'
 
-
-
 function Portfolio() {
   return (
     <div>

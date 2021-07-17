@@ -13,13 +13,13 @@ function Footer() {
 
       <footer >
         <div class='linkTreeIconsContainer'>
-          <a href='#'>
+          <a href='/'>
             <img class='linkTreeIcons' src={linkedinIcon} alt="LinkedinLOGO"></img>
           </a>
-          <a href='#'>
+          <a href='/'>
             <img class='linkTreeIcons' src={emailIcon} alt="EmailLOGO"></img>
           </a>
-          <a href='#'>
+          <a href='/'>
             <img class='linkTreeIcons' src={githubIcon} alt="GithubLOGO"></img>
           </a>
 

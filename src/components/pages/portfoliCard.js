@@ -14,7 +14,7 @@ export default function Card(props) {
       <div className="card-body">
         <h3 className="card-title">{props.name}</h3>
         <p className="card-text">{props.description}</p>
-        <a href={props.link} className="btn btn-primary">
+        <a href={props.link} rel='noreferrer' target="_blank" className="btn btn-primary">
           Link
         </a>
       </div>

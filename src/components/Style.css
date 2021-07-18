@@ -51,6 +51,14 @@ button {
 button:hover {
   background-color: rgb(130, 130, 130);
 }
+.btn {
+  background-color: teal;
+  border: none;
+  padding: 15px 30px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 .headerSpace {
   margin: 30px 0;
 }
@@ -75,6 +83,9 @@ button:hover {
   border-radius: 50%;
   width: 100px;
   height: auto;
+}
+.aboutText {
+  font-size: 130%;
 }
 .sizeContainerOne {
   margin: 0 150px;
@@ -105,11 +116,12 @@ ul {
 }
 /* Cards */
 .card {
+  background-color: white;
+  color: black;
   justify-content: space-around;
   margin: 30px;
   padding: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 02);
-  transition: 0.3s;
+  box-shadow: 0 4px 8px 0 black;
   width: 400px;
   height: 450px;
   position: relative;

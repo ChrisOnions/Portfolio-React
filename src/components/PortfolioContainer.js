@@ -24,7 +24,7 @@ function PortfolioContainer() {
 
   const handlePageChange = (page) => setCurrentPage(page);
   return (
-    <div>
+    <div className='fullPage'>
       <Navtabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer />

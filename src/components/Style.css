@@ -12,6 +12,9 @@
   position: relative;
   padding-bottom: 60px;
 }
+.fullPage {
+  min-height: 100%;
+}
 body {
   background-color: var(--Background-Grey2);
   color: white;
@@ -57,7 +60,9 @@ button:hover {
   padding: 15px 30px;
   text-decoration: none;
   margin: 4px 2px;
-  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(1, 151, 151);
 }
 .headerSpace {
   margin: 30px 0;
@@ -77,6 +82,13 @@ button:hover {
   letter-spacing: 3px;
   margin-left: 20px;
 }
+
+.nav-link:hover {
+  background-position: 0 100%;
+  font-weight: bold;
+  font-size: large;
+}
+
 /*  */
 .profilePic {
   margin-top: 20px;
@@ -123,7 +135,7 @@ ul {
   padding: 5px;
   box-shadow: 0 4px 8px 0 black;
   width: 400px;
-  height: 450px;
+  height: 470px;
   position: relative;
 }
 .btn {
@@ -150,9 +162,10 @@ footer {
   margin-right: auto;
   background-color: var(--Background-Grey1);
   text-align: center;
-  bottom: 0;
-  position: absolute;
   width: 100%;
+  position: fixed;
+
+  bottom: 0;
 }
 
 .linkTreeIconsContainer {
@@ -172,9 +185,13 @@ footer {
 }
 .resume {
   max-width: auto;
-  max-height: 500px;
+  max-height: 800px;
   margin: 20px;
 }
 .sBetween {
   justify-content: space-around;
+}
+.seperator {
+  border: 1px solid black;
+  margin: 0 20px;
 }
